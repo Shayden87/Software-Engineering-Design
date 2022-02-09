@@ -1,13 +1,19 @@
-'''
-Artifact refinement for CS499
-
-Created on Jan 21, 2022
-
-@author: Spencer Hayden
-'''
+###################################################################################
+# Name                  : AppointmentService.py
+# Author                : Spencer Hayden
+# Original Date         : 12/11/2020
+# Revision Date         : 01/20/2022
+# Version               : 2.0
+# Description           : Appointment Service class that creates list array 
+# Appointment and includes functions to add, update, and delete appointment objects
+# stored/to be stored in list array. Appointment objects are created through the 
+# Appointment.py Appointment class. Each function validates if appointment object
+# exists already within the list array before performing function. Appointment 
+# object parameters are validated through the Appointment class as well to ensure
+# proper user input.
+###################################################################################
 
 from datetime import datetime
-
 
 class AppointmentService:
     '''
