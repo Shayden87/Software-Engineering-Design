@@ -16,7 +16,6 @@ from AppointmentService import AppointmentService
 from Appointment import Appointment
 from datetime import date
 
-
 class Test(unittest.TestCase):
 
     #Test to verify adding of appointment to list
@@ -100,7 +99,6 @@ class Test(unittest.TestCase):
         b = Appointment()
         self.assertNotEquals(a, b)
     
-       
     def equalsFalseTest2(self):
         a = Appointment('Randomly', date(2022, 12, 12), 'Dinner with Margo')
         b = Appointment('Randoml', date(2022, 12, 12), 'Dinner with Margo')
