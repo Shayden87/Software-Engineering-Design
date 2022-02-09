@@ -1,8 +1,15 @@
-'''
-Created on Jan 23, 2022
-
-@author: RadicalEdward
-'''
+#####################################################################################
+# Name                  : Appointment_Service_Test.py
+# Author                : Spencer Hayden
+# Original Date         : 12/11/2020
+# Revision Date         : 01/20/2022
+# Version               : 2.0
+# Description           : Python Test Suite for testing functionality of the
+# Appointment and AppointmentService classes. Applies unittest library within
+# a test class to provide test objects to be added, deleted, or updated through
+# other classes. Also tests validations within other classes for proper functionality
+# ensuring code is behaving as expected. 
+#####################################################################################
 import unittest
 
 from AppointmentService import AppointmentService
@@ -110,6 +117,5 @@ class Test(unittest.TestCase):
         b = Appointment('Randomly', date(2022, 12, 13), 'Dinner with Margo')
         self.assertEquals(a, b)    
 
-    
 if __name__ == '__main__':
     unittest.main()  
