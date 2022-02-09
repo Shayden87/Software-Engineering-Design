@@ -1,12 +1,14 @@
-'''
-Artifact refinement for CS499
-
-Created on Jan 20, 2022
-
-@author: Spencer Hayden
-'''
-
-
+###################################################################################
+# Name                  : Appointment.py
+# Author                : Spencer Hayden
+# Original Date         : 12/11/2020
+# Revision Date         : 01/20/2022
+# Version               : 2.0
+# Description           : Appointment class for creation of appointment objects.
+# Utilized by AppointmentService class to take created objects and add them to list
+# array created in said class. Also includes getter and setter functions for object
+# parameters so objects can be searched for within the array, deleted, or updated.
+###################################################################################
 
 class Appointment:
     
